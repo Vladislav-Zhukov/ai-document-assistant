@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Alembic
+alembic.ini.bak
+
+# Uploaded files
+uploads/
+
+# MinIO local files
+minio_data/
+
+# PostgreSQL data
+postgres_data/
+
+# Redis
+redis_data/
+
+# Docker
+docker_data/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SentenceTransformers cache
+.cache/
+huggingface/
+hf_cache/
+
+# Model files
+models/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Reports
+reports/
+
+# Temporary files
+tmp/
+temp/
